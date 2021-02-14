@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Breanna Hentosz's Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Welcome to Breanna Hentosz's Application</h2>
+    <p class="lead">This is the first MVC cite created for MIS4200.</p>
+    <p><a href="http://cob.ohio.edu" class="btn btn-primary btn-lg">COB &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Breanna's Links</h2>
+        <ul>
+            <li>@Html.ActionLink("Customers", "Index", "Customers")</li>
+            <li>@Html.ActionLink("Orders", "Index", "Orders")</li>
+            <li>@Html.ActionLink("Students", "Index", "Students")</li>
+            <li>@Html.ActionLink("Grades", "Index", "Grades")</li>
+        </ul>
+
+    </div>
+    <div class="col-md-6">
+        <h2>About Breanna & College Life</h2>
+        <p>Breanna is 21 years old, has 1 dog, loves her college, is from Pittsburgh (Of Course she is a Steelers fan), and loves to travel!</p>
+        <p>Breanna Hentosz is a senior double majoring in Management Information Systems (MIS) and Business Analytics.</p>
+        <p>Outside of being the Executive Chair of Events for Ohio University’s Program Council (UPC), Breanna is an active member of the Information Systems and Analytics Professionals (ISAP).</p>
+        <p>After her sophomore year at Ohio University, she interned with the multinational information technology consulting firm, Sogeti.</p>
+        <p><a class="btn btn-default" href="https://www.ohio.edu/orgs/upc/about/about.html">About University Program Council &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <h2>After College</h2>
+        <p>Breanna accepted a full-time role in information systems with Schneider Downs upon graduation as an IT Risk Advisor. She will be working in the Pittsburgh office.</p>
+        <p><a class="btn btn-default" href="https://www.schneiderdowns.com/">Schneider Downs &raquo;</a></p>
+    </div>
+</div>
